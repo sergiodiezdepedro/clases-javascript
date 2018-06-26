@@ -1,0 +1,107 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-enlaces: #ff5252;
+  --color-bg: #eee;
+  --color-texto: #333;
+  --ubuntu: 'Ubuntu', sans-serif;
+  --montserrat: 'Montserrat', sans-serif;
+  --source: 'Source Sans Pro', sans-serif;
+  --lora: 'Lora', serif;
+  --open: 'Open Sans', sans-serif;
+  --titillium: 'Titillium Web', sans-serif;
+}
+
+body {
+  font-size: 19px;
+  background-color: var(--color-bg);
+  color: var(--color-texto);
+}
+
+.header {
+  padding: 2rem;
+}
+
+.enlace {
+  display: block;
+  text-decoration: none;
+  color: var(--color-enlaces);
+}
+
+.enlace:hover {
+  color: var(--color-texto);
+}
+
+.active {
+  color: var(--color-texto);
+}
+
+.contenedor {
+  margin: 1rem auto;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  max-width: 1200px;
+}
+
+.titulo__pagina, .titulo__capitulo {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+  }
+  .enlace {
+    flex: auto;
+    text-align: center;
+  }
+}
+
+.defecto {
+  font-family: serif;
+}
+
+.ubuntu {
+  font-family: var(--ubuntu);
+}
+
+.source {
+  font-family: var(--source);
+}
+
+.montserrat {
+  font-family: var(--montserrat);
+}
+
+.open {
+  font-family: var(--open);
+}
+
+.lora {
+  font-family: var(--lora);
+}
+
+.titillium {
+  font-family: var(--titillium);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 1 forwards;
+}
