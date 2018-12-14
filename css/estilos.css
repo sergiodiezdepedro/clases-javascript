@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Antenna Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Antenna Medium'), url('../fonts/antenna-medium.woff') format('woff');
+  }
+
 :root {
   --color-enlaces: #ff5252;
   --color-bg: #eee;
@@ -14,6 +21,7 @@
   --lora: 'Lora', serif;
   --open: 'Open Sans', sans-serif;
   --titillium: 'Titillium Web', sans-serif;
+  --antenna: 'Antenna Medium', sans-serif;
 }
 
 body {
@@ -93,6 +101,10 @@ p {
 
 .titillium {
   font-family: var(--titillium);
+}
+
+.antenna {
+  font-family: var(--antenna);
 }
 
 @keyframes fadeIn {

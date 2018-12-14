@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-let clases = ['defecto', 'ubuntu', 'source', 'montserrat', 'open', 'lora', 'titillium', 'fade-in'];
+let clases = ['defecto', 'ubuntu', 'source', 'montserrat', 'open', 'lora', 'titillium', 'antenna','fade-in'];
 
 const elemento = document.getElementById('contenedor');
 const header = document.getElementById('header');
