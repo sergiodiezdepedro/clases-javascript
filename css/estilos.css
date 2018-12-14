@@ -36,8 +36,10 @@ body {
 
 .enlace {
   display: block;
+  margin-bottom: .5rem;
   text-decoration: none;
   color: var(--color-enlaces);
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .enlace:hover {
@@ -50,8 +52,8 @@ body {
 
 .contenedor {
   margin: 1rem auto;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   max-width: 1200px;
 }
 
@@ -71,6 +73,7 @@ p {
   }
   .enlace {
     flex: auto;
+    margin-bottom: 0;
     text-align: center;
   }
 }
