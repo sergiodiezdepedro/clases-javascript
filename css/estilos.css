@@ -15,6 +15,7 @@
   --color-enlaces: #ff5252;
   --color-bg: #eee;
   --color-texto: #333;
+  --font-size: 16px;
   --ubuntu: 'Ubuntu', sans-serif;
   --montserrat: 'Montserrat', sans-serif;
   --source: 'Source Sans Pro', sans-serif;
@@ -25,7 +26,7 @@
 }
 
 body {
-  font-size: 19px;
+  font-size: var(--font-size);
   background-color: var(--color-bg);
   color: var(--color-texto);
 }
